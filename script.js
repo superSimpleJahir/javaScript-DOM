@@ -67,11 +67,20 @@ tag2.style.margin = '10px auto';
 tag2.style.borderRadius = '10px';
 tag2.style.textAlign = 'center';
 
+// querySelector in javascript
+let selectorByquary = document.querySelector('a').innerHTML = 'This is select.';
+let selectorByquary1 = document.querySelector('ul li:nth-child(2) a').innerHTML = 'This is select2.';
+let selectorByquary2 = document.querySelector('.mydiv a').innerHTML = 'This is select3.';
 
-const ullicolor = document.querySelector('li:first-child');
+// querySelectorAll in javascript atio getElementsByTagName getElementsByClassName ai selector gular moto ati NodeList return kore. ja akti arrayr moto akhaneo index number diye selecte korte hoi
+let selectorByquary3 = document.querySelectorAll('a')[0].innerHTML = 'This is select3.';
 
-ullicolor.style.backgroundColor = 'red';
-ullicolor.style.padding = '20px';
+
+
+// const ullicolor = document.querySelector('li:first-child');
+
+// ullicolor.style.backgroundColor = 'red';
+// ullicolor.style.padding = '20px';
 
 
 const parent = document.querySelector('.parent');
