@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> DOM traversing & manipulating</title>
+</head>
+<style>
+  .parentDiv {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .button {
+    font-size: 40px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .paragraph {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+  }
+</style>
+
+<body style="width: 1000px; margin: 0 auto;">
+  <ul class="students_list">
+    <li class="student_a">student A</li>
+    <li class="student_b">student B</li>
+    <li class="student_c">student C</li>
+  </ul>
+
+  <h1>Image slider in javascript</h1>
+  <div class="parentDiv">
+    <button class="button" onclick="prev()"> &lt; </button>
+    <img id="image" src="../img/img11.jpg" alt="img" width="800px" height="500px">
+    <button class="button" onclick="next()">&gt;</button>
+  </div>
+
+
+  <p id="para1">
+    This is paragraph 1.
+  </p>
+  <p id="pag2">
+    This is paragraph 2.
+  </p>
+
+  <button onclick="addStyle()">Style add</button>
+  <button onclick="removeStyle()">Style remove</button>
+  <button onclick="removeallStyle()">remove all style</button>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
