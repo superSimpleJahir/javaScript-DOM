@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 800px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.light {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 4px solid #000;
+}
+
+.yellow_button {
+  padding: 10px 30px;
+  margin: 50px;
+  font-size: 20px;
+  background: #2d4d2d;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  padding-top: 15px;
+  transition: .5s;
+}
+
+.yellow_button:hover {
+  opacity: .8;
+}
